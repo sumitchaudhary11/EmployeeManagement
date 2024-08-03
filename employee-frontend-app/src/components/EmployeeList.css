@@ -1,0 +1,69 @@
+/* EmployeeList.css */
+
+.employee-list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .table-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #007bff;;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .no-employees {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .add-employee-link {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .add-employee-link:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
+  }
+  
